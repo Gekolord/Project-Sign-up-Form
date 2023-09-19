@@ -1,0 +1,38 @@
+@font-face {
+    font-family: forbiden;
+    src: url(Forbiden.otf);
+}
+
+.left {
+    width: 40vw;
+    min-height: 100%;
+    position: relative;
+    background-image: url(background.jpg);
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    width: 60vw;
+    height: 100vh;
+}
+
+.holder {
+    display: flex;
+    
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: max(100px, 10%);
+    width: 100%;
+    background-color: gray;
+    top: 20%;
+    opacity: 0.75;
+}
+
+body {
+    margin: 0px;
+}
