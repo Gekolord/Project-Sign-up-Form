@@ -15,8 +15,9 @@
 .right {
     width: 60vw;
     height: 100vh;
-    background-color: rgb(224, 240, 255);
+    background-color: aliceblue;
     display: flex;
+    flex-direction: column;
 }
 
 .holder {
@@ -50,4 +51,41 @@ img {
     font-family: forbiden;
     font-size: 3em;
 
+}
+
+.info {
+    height: 30%;
+    width: 100%;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.text {
+    padding: 30px;
+    font-size: 4em;
+}
+
+label,input {
+    display: flex;
+    flex-direction: column;
+}
+
+.formhold {
+    width: 100%;
+    height: 25%;
+}
+
+.formitems {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.group {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-top: 15px;
 }
