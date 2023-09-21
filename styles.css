@@ -100,8 +100,14 @@ label,input {
 input:invalid {
     background-color: rgb(255, 207, 207);
     border: none;
-    outline: 2px solid red;
+    outline: 2px solid rgb(255, 102, 102);
   }
+
+input:valid {
+    background-color: lightgreen;
+    border: none;
+    outline: 2px solid green;
+}
   
 
   input {
@@ -126,4 +132,8 @@ input:invalid {
 .already {
     margin-left: 7%;
     margin-top: 5%;
+}
+
+#submit:active {
+    background-color: gray;
 }
