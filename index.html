@@ -39,11 +39,13 @@
                         </div>
                         <div class="group">
                             <label for="password">Password</label>
-                            <input type="password" id="password" name="password" minlength="8" required>
+                            <input type="password" id="password" name="password" minlength="8" required onkeyup="check()">
                         </div>
                         <div class="group">
-                            <label for="cpassword">Confirm Password</label>
-                            <input type="password" id="cpassword" name="cpassword" required minlength="8">
+                            <label for="cpassword">Confirm Password
+                                <input type="password" id="cpassword" name="cpassword" required minlength="8" onkeyup="check()">
+                                <span id='message'></span>
+                            </label>
                         </div>
 
                     </form>
@@ -53,5 +55,6 @@
             <div class="already">Already have an account? <a href="index.html">Log in</a></div>
         </div>
     </div>
+    <script src="javascript.js"></script>
     </body>
 </html>

@@ -103,10 +103,14 @@ input:invalid {
     outline: 2px solid rgb(255, 102, 102);
   }
 
-input:valid {
+.group>input:valid {
     background-color: lightgreen;
     border: none;
     outline: 2px solid green;
+}
+
+.group>input:focus {
+    box-shadow: 3px 3px 5px #a7a7a7;
 }
   
 
@@ -136,4 +140,16 @@ input:valid {
 
 #submit:active {
     background-color: gray;
+}
+
+.wrong {
+    background-color: rgb(255, 207, 207);
+    border: none;
+    outline: 2px solid rgb(255, 102, 102);
+}
+
+.match {
+    background-color: lightgreen;
+    border: none;
+    outline: 2px solid green;
 }
