@@ -1,3 +1,8 @@
+* {
+    font-family: sans-serif;;
+}
+
+
 @font-face {
     font-family: forbiden;
     src: url(Forbiden.otf);
@@ -56,7 +61,7 @@ img {
 .info {
     height: 30%;
     width: 100%;
-    font-family: sans-serif;
+    
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -98,3 +103,17 @@ input:invalid {
     outline: 2px solid red;
   }
   
+
+  input {
+    background-color: rgb(247, 251, 255);
+  }
+
+#submit {
+    margin-left: 7%;
+    margin-top: 5%;
+}
+
+.already {
+    margin-left: 7%;
+    margin-top: 5%;
+}
