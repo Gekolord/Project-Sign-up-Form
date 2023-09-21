@@ -106,11 +106,21 @@ input:invalid {
 
   input {
     background-color: rgb(247, 251, 255);
+    border: 2px solid lightgray;
+    border-radius: 3px;
   }
 
 #submit {
     margin-left: 7%;
     margin-top: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 5px;
 }
 
 .already {
